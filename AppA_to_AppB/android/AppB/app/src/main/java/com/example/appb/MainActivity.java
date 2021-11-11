@@ -7,15 +7,14 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView getVal = findViewById(R.id.getVal);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        TextView receiveVal = findViewById(R.id.receiveVal);
 
-
+        // 전달 받은 데이터 파싱 해서 사용 
 
     }
 }
