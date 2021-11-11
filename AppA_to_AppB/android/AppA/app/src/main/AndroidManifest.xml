@@ -12,8 +12,8 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+                <data android:host="appa_host" android:scheme="appa"/>
             </intent-filter>
         </activity>
     </application>
